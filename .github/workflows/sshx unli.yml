@@ -1,0 +1,228 @@
+name: ssh unli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'  # Jalan ulang setiap 6 jam
+
+jobs:
+  sshx1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx6:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx7:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx9:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx10:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx11:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx12:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx13:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx14:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx15:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx16:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx17:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx18:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx19:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
+  sshx20:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Start SSHX 1
+        run: |
+          for i in $(seq 1 5); do
+            echo "Starting VPS $i..."
+            curl -sSf https://sshx.io/get | sh -s run &
+          done
+          wait
